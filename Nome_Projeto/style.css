@@ -10,7 +10,9 @@ body{
 /* Espaço para estilizar a Nav Bar */
 
     .navbar{
+        position: relative;
         height: 10vh;
+        z-index: 1;
     }
 
 
@@ -51,8 +53,11 @@ body{
     height: 11vh;
     border-radius: 50%;
     background-color: rgb(167, 167, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
 }
-
 /* -------------------------------------------------------------------------- */
 /* Espaço para estilizar a linha de produtos */
 
@@ -107,7 +112,13 @@ body{
     margin-bottom: 5vh;
 }
 
-
-
 /* -------------------------------------------------------------------------- */
 /* Espaço para estilizar o Footer */
+
+.Fourth{
+    background-color: rgb(207, 207, 207);
+}
+
+.Fourth footer ul li .text, .text{
+    color: rgb(107, 107, 107);
+}
