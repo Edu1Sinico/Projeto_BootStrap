@@ -16,8 +16,7 @@ body{
     }
 
 
-
-/* -------------------------------------------------------------------------- */
+/* --------------------------- Página Inicial ------------------------------- */
 /* Espaço para estilizar o Carrossel */
 
 
@@ -121,4 +120,24 @@ body{
 
 .Fourth footer ul li .text, .text{
     color: rgb(107, 107, 107);
+}
+
+
+
+
+
+/* --------------------------- Página de Login ------------------------------- */
+/* Formulário de Login */
+
+.login-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    padding: 5vh;
+    border: 1px solid gray;
+    border-radius: 15px;
 }
