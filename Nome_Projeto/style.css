@@ -125,28 +125,63 @@ body{
 
 
 /* ------------------------ Página de Produtos ------------------------------- */
- 
+/* barra ce categorias lateral */
 .category-bar{
     margin-top: 10vh;
     width: 100%;
-    height: 45%;
+    height: 30%;
     background-color: rgb(207, 207, 207);
     border-radius: 15px;
     padding: 15px;
 }
+
+/* div do botão de páginas */
+.btn-next-previous{
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /* --------------------------- Página de Login ------------------------------- */
 /* Formulário de Login */
 
 .login-container{
     height: 100%;
+    margin-top: 5vh;
+    margin-bottom: 7.4vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .login{
+    width: 25vh;
+    height: 45vh;
     padding: 5vh;
     border: 1px solid gray;
     border-radius: 15px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+
+
+/* --------------------------- Página de Cadastro ------------------------------- */
+/* Formulário de Cadastro */
+
+.reg-container{
+    height: 100%;
+    margin-top: 5vh;
+    margin-bottom: 7.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    height: 60vh;
+    padding: 5vh;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 0px 7px 15px gray;
 }
