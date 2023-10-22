@@ -145,7 +145,16 @@ body{
 
 
 
-
+/* ------------------------ Página de Produtos ------------------------------- */
+ 
+.category-bar{
+    margin-top: 10vh;
+    width: 100%;
+    height: 45%;
+    background-color: rgb(207, 207, 207);
+    border-radius: 15px;
+    padding: 15px;
+}
 
 /* --------------------------- Página de Login ------------------------------- */
 /* Formulário de Login */
