@@ -21,7 +21,8 @@ body{
 
 
 #carouselExampleAutoplaying{
-    margin-bottom: 5vh;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 /* Edição do botão do Slider */
@@ -57,6 +58,12 @@ body{
     align-items: center;
     font-size: 5vh;
 }
+
+.category img{
+    border-radius: 60px;
+}
+
+
 /* -------------------------------------------------------------------------- */
 /* Espaço para estilizar a linha de produtos */
 
@@ -97,7 +104,21 @@ body{
 }
 
 .Second .container .row .col-md-5{
-    margin-top: 3vh;
+    margin-top: 30px;
+}
+
+.Second .container .row .col-md-5 img{
+   border-radius: 10px;
+}
+
+.Second .container .row .col-md-7 a#akap{
+    background-color: #333;
+    border-color: #121212;
+}
+
+.Second .container .row .col-md-7 a#nitter{
+    background-color: #4d81ca;
+    border-color: #33527d;
 }
 
 /* -------------------------------------------------------------------------- */
