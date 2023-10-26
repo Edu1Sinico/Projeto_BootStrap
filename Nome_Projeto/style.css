@@ -1,173 +1,244 @@
 /* -------------------------------------------------------------------------- */
 /* Espaço para edição do body ou de tudo*/
 
-*{}
+* {
+}
 
-body{
+body {
 }
 
 /* -------------------------------------------------------------------------- */
 /* Espaço para estilizar a Nav Bar */
 
-    .navbar{
-        position: relative;
-        height: 10vh;
-        z-index: 1;
-    }
-
+.navbar {
+  position: relative;
+  height: 100px;
+  z-index: 1;
+}
 
 /* --------------------------- Página Inicial ------------------------------- */
 /* Espaço para estilizar o Carrossel */
 
-
-#carouselExampleAutoplaying{
-    margin-top: 25px;
-    margin-bottom: 50px;
+#carouselExampleAutoplaying {
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 /* Edição do botão do Slider */
-#carouselExampleAutoplaying .carousel-indicators button{
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
+#carouselExampleAutoplaying .carousel-indicators button {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
 
 /* -------------------------------------------------------------------------- */
 /* Espaço para estilizar a linha de categorias */
 
-.categories{
-    background-color: rgb(223, 223, 223);
-    height: 15vh;
-    margin-bottom: 5vh;
-    border-radius: 15px;
+.categories {
+  background-color: rgb(223, 223, 223);
+  height: 150pxh;
+  margin-bottom: 50px;
+  border-radius: 15px;
 }
 
-.categories .col{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.categories .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.categories .col .category{
-    width: 11vh;
-    height: 11vh;
-    border-radius: 50%;
-    background-color: rgb(167, 167, 167);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 5vh;
+.categories .col .category {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
 }
 
-.category img{
-    border-radius: 60px;
+.category img {
+  border-radius: 60px;
 }
 
+.row.categories {
+  background-color: #2a54d1;
+  height: 150px;
+}
+
+.row.Products h2 {
+  margin-bottom: 60px;
+}
+
+.row.categories .category img {
+  width: 125px;
+  height: 125px;
+}
+
+@media Screen and (max-width: 767px) {
+  .row.categories {
+    height: 195px;
+  }
+
+  .row.categories .category img {
+    width: 90px;
+    height: 90px;
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* Espaço para estilizar a linha de produtos */
 
-.Products{
-    margin-bottom: 5vh;
+.Products {
+  margin-bottom: 50px;
 }
 
-.Products h2{
-    margin-top: 5px;
-    margin-bottom: 5vh;
+.Products h2 {
+  margin-top: 5px;
+  margin-bottom: 50px;
 }
 
-.Products .col{
-    display: flex;
-    justify-content: center;
+.Products .col {
+  display: flex;
+  justify-content: center;
 }
 
-.Products .card{
-    margin-bottom: 10px;
+.Products .card {
+  margin-bottom: 10px;
 }
 
-.part{
-    border-top: 2px solid rgb(223, 223, 223);
+.part {
+  border-top: 2px solid rgb(223, 223, 223);
 }
 
 /* -------------------------------------------------------------------------- */
 /* Espaço para estilizar a linha de anúncio */
 
-.Second{
-    background-color: rgb(223, 223, 223);
-    height: 60vh;
-    margin-bottom: 5vh;
+.Second {
+  background-color: rgb(223, 223, 223);
+  height: 570px;
+  margin-bottom: 50px;
 }
 
-.Second .container .row{
+.Second .container .row {
+  display: flex;
+  align-items: center;
+}
+
+.Second .container .row .col-md-5 {
+  margin-top: 30px;
+}
+
+.Second .container .row .col-md-5 img {
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+}
+
+.Second .container .row .col-md-7 a#akap {
+  background-color: #333;
+  border-color: #121212;
+}
+
+.Second .container .row .col-md-7 a#nitter {
+  background-color: #4d81ca;
+  border-color: #33527d;
+}
+
+@media Screen and (max-width: 767px) {
+  .Second .container {
+    padding: 15px;
+  }
+
+  .Second .container .row .col-md-5 {
     display: flex;
+    justify-content: center;
     align-items: center;
-}
+  }
 
-.Second .container .row .col-md-5{
-    margin-top: 30px;
-}
-
-.Second .container .row .col-md-5 img{
-   border-radius: 10px;
-}
-
-.Second .container .row .col-md-7 a#akap{
-    background-color: #333;
-    border-color: #121212;
-}
-
-.Second .container .row .col-md-7 a#nitter{
-    background-color: #4d81ca;
-    border-color: #33527d;
+  .Second .container .row .col-md-5 img {
+    width: 330px;
+    height: 330px;
+  }
 }
 
 /* -------------------------------------------------------------------------- */
 /* Espaço para estilizar a linha de dúvida */
 
-.Third{
-    margin-bottom: 5vh;
+.Third {
+  margin-bottom: 50px;
 }
 
-.Third .title{
-    margin-bottom: 5vh;
+.Third .title {
+  margin-bottom: 50px;
 }
 
 /* -------------------------------------------------------------------------- */
 /* Espaço para estilizar o Footer */
 
-.Fourth{
-    background-color: rgb(207, 207, 207);
+.Fourth {
+  background-color: rgb(207, 207, 207);
 }
 
-.Fourth footer ul li .text, .text{
-    color: rgb(107, 107, 107);
+.Fourth footer ul li .text,
+.text {
+  color: rgb(107, 107, 107);
 }
-
-
 
 /* ------------------------ Página de Produtos ------------------------------- */
- 
-.category-bar{
-    margin-top: 10vh;
-    width: 100%;
-    height: 45%;
-    background-color: rgb(207, 207, 207);
-    border-radius: 15px;
-    padding: 15px;
+/* barra ce categorias lateral */
+.category-bar {
+  margin-top: 100px;
+  width: 100%;
+  height: 750px;
+  background-color: rgb(207, 207, 207);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+/* div do botão de páginas */
+.btn-next-previous {
+  display: flex;
+  justify-content: center;
 }
 
 /* --------------------------- Página de Login ------------------------------- */
 /* Formulário de Login */
 
-.login-container{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.login-container {
+  height: 100%;
+  margin-top: 5vh;
+  margin-bottom: 7.4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.login{
-    padding: 5vh;
-    border: 1px solid gray;
-    border-radius: 15px;
+.login {
+  width: 25vh;
+  height: 45vh;
+  padding: 5vh;
+  border: 1px solid gray;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px gray;
 }
+
+/* --------------------------- Página de Cadastro ------------------------------- */
+/* Formulário de Cadastro */
+
+.reg-container {
+  height: 100%;
+  margin-top: 5vh;
+  margin-bottom: 7.4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register {
+  height: 60vh;
+  padding: 5vh;
+  border: 1px solid gray;
+  border-radius: 15px;
+  box-shadow: 0px 7px 15px gray;
+}
+
+/* RESPONSIVIDADE SITE! */
